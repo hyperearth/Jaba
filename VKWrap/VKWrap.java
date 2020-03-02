@@ -1,7 +1,8 @@
 //package VKWrap;
 
-
-import VKWrap.*;
+import org.bytedeco.javacpp.*;
+import org.bytedeco.javacpp.annotation.*;
+import java.nio.Buffer;
 
 // 
 @Namespace("VKWrap")

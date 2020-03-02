@@ -33,5 +33,15 @@ org/*
 */org/
 */org/*
 
+# don't include production
+out/
+out/*
+/out/
+/out/*
+./out/
+./out/*
+*/out/
+*/out/*
+
 # don't include C++ objects
 *.obj
