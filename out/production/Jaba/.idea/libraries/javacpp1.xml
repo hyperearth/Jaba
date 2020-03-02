@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="javacpp1">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/org/bytedeco/javacpp/javacpp.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
