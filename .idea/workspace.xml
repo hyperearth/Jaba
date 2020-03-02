@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2536b5ff-d5b2-45d1-b989-f04ab1903dd4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1YYLWh7aTsiY7YzCefJ7eTR5ThW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/org/bytedeco/javacpp/javacpp.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.29013538" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="13.0.2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="Jaba" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2536b5ff-d5b2-45d1-b989-f04ab1903dd4" name="Default Changelist" comment="" />
+      <created>1583114614426</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583114614426</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="416" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583116948763">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="416" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583116948763" />
+    <state x="691" y="306" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583116903420">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="691" y="306" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583116903420" />
+    <state x="810" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583114630981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="810" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583114630981" />
+    <state x="742" y="277" key="FileChooserDialogImpl" timestamp="1583117100756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="742" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583117100756" />
+    <state x="441" y="96" key="SettingsEditor" timestamp="1583117103763">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="441" y="96" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583117103763" />
+    <state x="656" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1583114617428">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583114617428" />
+  </component>
+</project>

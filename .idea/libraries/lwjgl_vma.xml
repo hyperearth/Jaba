@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="lwjgl-vma">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/org/lwjgl/lwjgl/lwjgl-vma.jar!/" />
+      <root url="jar://$PROJECT_DIR$/org/lwjgl/lwjgl/lwjgl-vma-natives-windows.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/org/lwjgl/lwjgl/lwjgl-vma-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/org/lwjgl/lwjgl/lwjgl-vma-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
