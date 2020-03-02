@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="javacpp1">
+  <library name="javacpp">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/org/bytedeco/javacpp/javacpp.jar!/" />
     </CLASSES>

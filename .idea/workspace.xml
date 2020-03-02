@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4cec85c-9b9f-4e32-9be1-0c3f191d8caf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKWrap/jniVKWrap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKWrap/windows-x86_64/jniJabaClass.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VKWrap/windows-x86_64/jniJabaClass.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKWrap/windows-x86_64/jniJabaClass.lib" beforeDir="false" afterPath="$PROJECT_DIR$/VKWrap/windows-x86_64/jniJabaClass.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKWrap/windows-x86_64/jniVKWrap.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKWrap/windows-x86_64/jniVKWrap.exp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKWrap/windows-x86_64/jniVKWrap.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKWrap/windows-x86_64/jniVkDeviceCreateInfoWrap.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VKWrap/windows-x86_64/jniVkDeviceCreateInfoWrap.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKWrap/windows-x86_64/jniVkDeviceCreateInfoWrap.lib" beforeDir="false" afterPath="$PROJECT_DIR$/VKWrap/windows-x86_64/jniVkDeviceCreateInfoWrap.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jaba/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jaba/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jaba/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jaba/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VKWrap/windows-x86_64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKWrap/windows-x86_64/Bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKWrap/windows-x86_64/Include" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKWrap/windows-x86_64/Lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKWrap/windows-x86_64/jniJabaClass.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKWrap/windows-x86_64/jniVkDeviceCreateInfoWrap.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/generate.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl.dll.git" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl.dll.sha1" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.29013538" />
   </component>
@@ -92,22 +91,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="691" y="306" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583156368958" />
-    <state width="1878" height="348" key="GridCell.Tab.0.bottom" timestamp="1583158478321">
+    <state width="1878" height="348" key="GridCell.Tab.0.bottom" timestamp="1583159872687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583158478321" />
-    <state width="1878" height="348" key="GridCell.Tab.0.center" timestamp="1583158478321">
+    <state width="1878" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583159872687" />
+    <state width="1878" height="348" key="GridCell.Tab.0.center" timestamp="1583159872687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583158478321" />
-    <state width="1878" height="348" key="GridCell.Tab.0.left" timestamp="1583158478321">
+    <state width="1878" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583159872687" />
+    <state width="1878" height="348" key="GridCell.Tab.0.left" timestamp="1583159872686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583158478321" />
-    <state width="1878" height="348" key="GridCell.Tab.0.right" timestamp="1583158478321">
+    <state width="1878" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583159872686" />
+    <state width="1878" height="348" key="GridCell.Tab.0.right" timestamp="1583159872687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583158478321" />
+    <state width="1878" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583159872687" />
     <state width="1878" height="348" key="GridCell.Tab.1.bottom" timestamp="1583158478321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -124,17 +123,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1878" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583158478321" />
-    <state x="441" y="96" key="SettingsEditor" timestamp="1583156357508">
+    <state x="441" y="96" key="SettingsEditor" timestamp="1583159696478">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="441" y="96" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583156357508" />
-    <state x="656" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1583158554198">
+    <state x="441" y="96" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583159696478" />
+    <state x="656" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1583159660782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583158554198" />
-    <state x="619" y="242" key="run.anything.popup" timestamp="1583156348062">
+    <state x="656" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583159660782" />
+    <state x="620" y="243" key="run.anything.popup" timestamp="1583159687814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="619" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583156348062" />
+    <state x="620" y="243" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583159687814" />
   </component>
 </project>

@@ -45,3 +45,4 @@ out/*
 
 # don't include C++ objects
 *.obj
+*.pdb
