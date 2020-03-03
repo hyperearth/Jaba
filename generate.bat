@@ -1,9 +1,10 @@
 call vcvarsall.bat x64
 call vcvars64.bat
-call java -jar javacpp.jar -cp .;                                                                                               VKWrap/VkDeviceCreateInfoWrap.java  -header -d out/production/Jaba/VKWrap
-call java -jar javacpp.jar -cp .;out/production/VKWrap/VkDeviceCreateInfoWrap.class                                             VKWrap/JabaClass.java               -header -d out/production/Jaba/VKWrap
-call javac                 -cp .;out/production/VKWrap/VKWrap.class;org/lwjgl/lwjgl/lwjgl.jar;org/lwjgl/lwjgl/lwjgl-vulkan.jar;org/bytedeco/javacpp/javacpp.jar  Jaba.java  -d out/production/Jaba
-::call cd out/production
-::call java                  -cp .;org/lwjgl/lwjgl/lwjgl.jar;org/lwjgl/lwjgl/lwjgl-vulkan.jar;org/bytedeco/javacpp/javacpp.jar;out/production/Jaba/Jaba.class  Jaba       
-::call java -jar javacpp.jar   Jaba.java -exec :: INCOMPATIBLE WITH LWJGL!!!
+set LWJGL_3=org/lwjgl/lwjgl
+set OUT_DIR=out/production/Jaba
+set JAVACPP=org/bytedeco/javacpp
+call java -jar javacpp.jar -cp .;                                                                                                                           VKWrap/VkDeviceCreateInfoWrap.java -header -d %OUT_DIR%/VKWrap
+call java -jar javacpp.jar -cp .;%OUT_DIR%/VKWrap/VkDeviceCreateInfoWrap.class                                                                              VKWrap/JabaClass.java              -header -d %OUT_DIR%/VKWrap
+call javac                 -cp .;%LWJGL_3%/lwjgl.jar;%LWJGL_3%/lwjgl-vulkan.jar;%JAVACPP%/javacpp.jar;%OUT_DIR%/VKWrap/VKWrap.class;                        Jaba.java                                  -d %OUT_DIR%
+call java                  -cp .;%LWJGL_3%/lwjgl.jar;%LWJGL_3%/lwjgl-vulkan.jar;%JAVACPP%/javacpp.jar;%OUT_DIR%/VKWrap/JabaClass.class;%OUT_DIR%/Jaba.class Jaba       
 pause
