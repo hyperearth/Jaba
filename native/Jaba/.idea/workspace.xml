@@ -1,71 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="JiviX" targetName="jniVkDeviceCreateInfoWrap" />
+      <config projectName="JiviX" targetName="jniJabaClass" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug-Visual Studio" CONFIG_NAME="Debug" TOOLCHAIN_NAME="Visual Studio" GENERATION_OPTIONS="-x64" GENERATION_DIR="build/Debug" />
+      <configuration PROFILE_NAME="Release-Visual Studio" CONFIG_NAME="Release" TOOLCHAIN_NAME="Visual Studio" GENERATION_OPTIONS="-x64" GENERATION_DIR="build/Release" />
+      <configuration PROFILE_NAME="RelWithDebInfo-Visual Studio" CONFIG_NAME="RelWithDebInfo" TOOLCHAIN_NAME="Visual Studio" GENERATION_OPTIONS="-x64" GENERATION_DIR="build/RelWithDebInfo" />
+      <configuration PROFILE_NAME="MinSizeRel-Visual Studio" CONFIG_NAME="MinSizeRel" TOOLCHAIN_NAME="Visual Studio" GENERATION_OPTIONS="-x64" GENERATION_DIR="build/MinSizeRel" />
+      <configuration PROFILE_NAME="Default-Visual Studio" TOOLCHAIN_NAME="Visual Studio" GENERATION_OPTIONS="-x64" GENERATION_DIR="build" />
+    </configurations>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cec9dd5-46e1-4e55-a9c2-e059152f9a6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javacpp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javacpp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lwjgl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lwjgl.xml" afterDir="false" />
+    <list default="true" id="c1d6b03a-85ca-4bc4-9b75-74577e53490e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jaba.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Jaba.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKWrap/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKWrap/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKWrap/.idea/VKWrap.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKWrap/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKWrap/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKWrap/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKWrap/CMakeLists.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ProjectId" id="1YbXESqsBjPrPlyojNvY7RKxRBI" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-Visual Studio" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1Z3rxnHmuJkuKwxSBkzbSRV3ZTK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="Application" factoryName="Application" singleton="false">
-      <option name="MAIN_CLASS_NAME" value="Jaba" />
-      <module name="Jaba" />
+  <component name="RunManager" selected="CMake Application.jniJabaClass">
+    <configuration name="jniJabaClass" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JiviX" TARGET_NAME="jniJabaClass" CONFIG_NAME="Debug-Visual Studio">
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
+    <configuration name="jniVkDeviceCreateInfoWrap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JiviX" TARGET_NAME="jniVkDeviceCreateInfoWrap" CONFIG_NAME="Debug-Visual Studio">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.jniJabaClass" />
+      <item itemvalue="CMake Application.jniVkDeviceCreateInfoWrap" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6cec9dd5-46e1-4e55-a9c2-e059152f9a6c" name="Default Changelist" comment="" />
-      <created>1583212155935</created>
+      <changelist id="c1d6b03a-85ca-4bc4-9b75-74577e53490e" name="Default Changelist" comment="" />
+      <created>1584078867890</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1583212155935</updated>
+      <updated>1584078867890</updated>
+      <workItem from="1584078870453" duration="2945000" />
+      <workItem from="1584084472398" duration="264000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../../.." />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="416" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583212268727">
+    <state x="742" y="276" key="FileChooserDialogImpl" timestamp="1584078952663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="416" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583212268727" />
-    <state x="691" y="306" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583212258343">
+    <state x="742" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584078952663" />
+    <state x="462" y="163" key="SettingsEditor" timestamp="1584084499949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="691" y="306" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583212258343" />
+    <state x="462" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584084499949" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584084472407">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584084472407" />
   </component>
 </project>
