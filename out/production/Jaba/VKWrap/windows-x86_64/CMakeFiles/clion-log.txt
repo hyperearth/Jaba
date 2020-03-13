@@ -1,0 +1,4 @@
+"H:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" H:\Data\Projects\Jaba\out\production\Jaba\VKWrap
+-- Configuring done
+-- Generating done
+-- Build files have been written to: H:/Data/Projects/Jaba/out/production/Jaba/VKWrap/cmake-build-debug

@@ -1,0 +1,4 @@
+"H:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\jniJabaClass.dir/objects.a
+H:\msys64\bin\ar.exe cr CMakeFiles\jniJabaClass.dir/objects.a @CMakeFiles\jniJabaClass.dir\objects1.rsp
+H:\msys64\bin\g++.exe   -m64 -std=c++2a -march=skylake -mtune=skylake -fpermissive -w -Ofast -g  -shared -o jniJabaClass.dll -Wl,--out-implib,libjniJabaClass.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\jniJabaClass.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\jniJabaClass.dir\linklibs.rsp -Wl,--output-def,jniJabaClass.def
+"H:\Program Files\CMake\bin\cmake.exe" -Dlib="H:/Data/Projects/Jaba/out/production/Jaba/VKWrap/windows-x86_64/CMakeFiles/CMakeGNUtoMS_lib.bat" -Ddef=jniJabaClass.def -Ddll=jniJabaClass.dll -Dimp=libjniJabaClass.dll.a -P "H:/Program Files/CMake/share/cmake-3.17/Modules/Platform/GNUtoMS_lib.cmake"
