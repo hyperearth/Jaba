@@ -1,4 +1,4 @@
 H:/Data/Projects/Jaba/out/production/Jaba/VKWrap/build/CMakeFiles/jniJabaClass.dir
 H:/Data/Projects/Jaba/out/production/Jaba/VKWrap/build/CMakeFiles/jniVkDeviceCreateInfoWrap.dir
-H:/Data/Projects/Jaba/out/production/Jaba/VKWrap/build/CMakeFiles/ALL_BUILD.dir
-H:/Data/Projects/Jaba/out/production/Jaba/VKWrap/build/CMakeFiles/ZERO_CHECK.dir
+H:/Data/Projects/Jaba/out/production/Jaba/VKWrap/build/CMakeFiles/edit_cache.dir
+H:/Data/Projects/Jaba/out/production/Jaba/VKWrap/build/CMakeFiles/rebuild_cache.dir
