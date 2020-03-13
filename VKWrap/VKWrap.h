@@ -11,9 +11,9 @@ class VKWrap { public:
             std::cout << info->pNext << std::endl;
             std::cout << info->flags << std::endl;
 
-            auto devi = VkDeviceCreateInfo{
-                .pNext = nullptr
-            };
+            //auto devi = VkDeviceCreateInfo{
+            //    .pNext = nullptr
+            //};
         };
     };
 };

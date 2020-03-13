@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\jnijavacpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\jniVkDeviceCreateInfoWrap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\jniVkDeviceCreateInfoWrap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CBCDB186-790E-3295-96A0-7A32A0E090A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{35C64152-883D-3E6B-B2CA-F0C7EB4BBBDC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\build\CMakeFiles\3bbe68517ba8820d83c26960eae0a14e\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{03A6FE27-1B11-3500-B629-96B1F11662E9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

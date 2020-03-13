@@ -43,6 +43,24 @@ org/*
 #*/out/
 #*/out/*
 
+# Ban CMAKE Generated
+build/
+build/*
+*/build/
+*/build/*
+
+# Ban CLION Generated
+cmake-build*/
+cmake-build*/*
+*/cmake-build*/
+*/cmake-build*/*
+
+# Ban CLION Legal
+build-clion/
+build-clion/*
+*/build-clion/
+*/build-clion/*
+
 # don't include C++ objects
 *.obj
 *.pdb

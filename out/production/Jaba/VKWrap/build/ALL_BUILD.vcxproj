@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F45FF02A-F086-33D8-AC27-81EE432412BC}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19577.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\Java\jdk-13.0.2\include;H:\VulkanSDK\1.2.131.2\Include;H:\Data\Projects\Jaba\out\production\Jaba\VKWrap;H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\Java\jdk-13.0.2\include;H:\VulkanSDK\1.2.131.2\Include;H:\Data\Projects\Jaba\out\production\Jaba\VKWrap;H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\Java\jdk-13.0.2\include;H:\VulkanSDK\1.2.131.2\Include;H:\Data\Projects\Jaba\out\production\Jaba\VKWrap;H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\Java\jdk-13.0.2\include;H:\VulkanSDK\1.2.131.2\Include;H:\Data\Projects\Jaba\out\production\Jaba\VKWrap;H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/Data/Projects/Jaba/out/production/Jaba/VKWrap/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"H:\Program Files\CMake\bin\cmake.exe" -SH:/Data/Projects/Jaba/out/production/Jaba/VKWrap -BH:/Data/Projects/Jaba/out/production/Jaba/VKWrap/build --check-stamp-file H:/Data/Projects/Jaba/out/production/Jaba/VKWrap/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\build\CMakeFiles\3.17.0-rc2\CMakeCXXCompiler.cmake;H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\build\CMakeFiles\3.17.0-rc2\CMakeRCCompiler.cmake;H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\build\CMakeFiles\3.17.0-rc2\CMakeSystem.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeFindJavaCommon.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\FindJNI.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\FindJava.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\FindVulkan.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\UseJava.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule H:/Data/Projects/Jaba/out/production/Jaba/VKWrap/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"H:\Program Files\CMake\bin\cmake.exe" -SH:/Data/Projects/Jaba/out/production/Jaba/VKWrap -BH:/Data/Projects/Jaba/out/production/Jaba/VKWrap/build --check-stamp-file H:/Data/Projects/Jaba/out/production/Jaba/VKWrap/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\build\CMakeFiles\3.17.0-rc2\CMakeCXXCompiler.cmake;H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\build\CMakeFiles\3.17.0-rc2\CMakeRCCompiler.cmake;H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\build\CMakeFiles\3.17.0-rc2\CMakeSystem.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeFindJavaCommon.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\FindJNI.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\FindJava.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\FindVulkan.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\UseJava.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule H:/Data/Projects/Jaba/out/production/Jaba/VKWrap/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"H:\Program Files\CMake\bin\cmake.exe" -SH:/Data/Projects/Jaba/out/production/Jaba/VKWrap -BH:/Data/Projects/Jaba/out/production/Jaba/VKWrap/build --check-stamp-file H:/Data/Projects/Jaba/out/production/Jaba/VKWrap/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\build\CMakeFiles\3.17.0-rc2\CMakeCXXCompiler.cmake;H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\build\CMakeFiles\3.17.0-rc2\CMakeRCCompiler.cmake;H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\build\CMakeFiles\3.17.0-rc2\CMakeSystem.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeFindJavaCommon.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\FindJNI.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\FindJava.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\FindVulkan.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\UseJava.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule H:/Data/Projects/Jaba/out/production/Jaba/VKWrap/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"H:\Program Files\CMake\bin\cmake.exe" -SH:/Data/Projects/Jaba/out/production/Jaba/VKWrap -BH:/Data/Projects/Jaba/out/production/Jaba/VKWrap/build --check-stamp-file H:/Data/Projects/Jaba/out/production/Jaba/VKWrap/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\build\CMakeFiles\3.17.0-rc2\CMakeCXXCompiler.cmake;H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\build\CMakeFiles\3.17.0-rc2\CMakeRCCompiler.cmake;H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\build\CMakeFiles\3.17.0-rc2\CMakeSystem.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeFindJavaCommon.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\FindJNI.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\FindJava.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\FindVulkan.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;H:\Program Files\CMake\share\cmake-3.17\Modules\UseJava.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\build\ZERO_CHECK.vcxproj">
+      <Project>{78D6472C-A6D3-381D-A1F1-D854E0761CEE}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\build\jniJabaClass.vcxproj">
+      <Project>{75DA10CC-DB22-3421-A651-A63613E5656D}</Project>
+      <Name>jniJabaClass</Name>
+    </ProjectReference>
+    <ProjectReference Include="H:\Data\Projects\Jaba\out\production\Jaba\VKWrap\build\jniVkDeviceCreateInfoWrap.vcxproj">
+      <Project>{A0F8D65B-534A-3457-9A0E-FC6ED13FAB6D}</Project>
+      <Name>jniVkDeviceCreateInfoWrap</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
