@@ -1,0 +1,1 @@
+../../../native/Jaba/VKWrap/jnijavacpp.cpp

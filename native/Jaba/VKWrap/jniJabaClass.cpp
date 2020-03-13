@@ -332,7 +332,7 @@ JNIEXPORT int JavaCPP_init(int argc, const char *argv[]) {
     JNIEnv *env;
     int nOptions = 1 + (argc > 255 ? 255 : argc);
     JavaVMOption options[256] = { { NULL } };
-    options[0].optionString = (char*)"-Djava.class.path=javacpp.jar;.";
+    options[0].optionString = (char*)"-Djava.class.path=javacpp.jar;.;../out/production/VKWrap/VkDeviceCreateInfoWrap.class";
     for (int i = 1; i < nOptions && argv != NULL; i++) {
         options[i].optionString = (char*)argv[i - 1];
     }
